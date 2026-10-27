@@ -1,4 +1,3 @@
-
 class Vector:
     def __init__(self, data):
         self.data = list(data)
@@ -54,4 +53,3 @@ class Matrix:
             result.append(row)
 
         return Matrix(result)
-
