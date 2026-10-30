@@ -1,5 +1,4 @@
-
-from mini_linalg.core import Matrix, Vector
+from mini_linalg import Vector, Matrix
 
 
 def test_mat_vec():
