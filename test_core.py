@@ -18,4 +18,3 @@ def test_mat_mat():
     result = A.mat_mat(B)
 
     assert result.data == [[19, 22], [43, 50]]
-
