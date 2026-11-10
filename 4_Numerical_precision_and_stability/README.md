@@ -8,7 +8,7 @@
 ## Reproduce
 ```bash
 pip install -r requirements.txt
-python benchmark.py            # ~1 min; use --max-matmat 4096 --max-matvec 8192 for a quicker run
+python benchmark.py            # takes a few minutes; for a quicker run: --max-matmat 4096 --max-matvec 8192
 python plot_results.py
 ```
 Needs ~3 GB of free RAM for the largest sizes (N=16384 float64 matvec, N=8192 float64 matmat).
